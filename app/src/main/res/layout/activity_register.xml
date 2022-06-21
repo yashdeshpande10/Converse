@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@color/white">
+
+    <!--//App title-->
+    <TextView
+        android:id="@+id/TV_converse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converse"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/proximanovafont"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="#B61C10"/>
+    <!--//App Auth illustrator-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/conversation"
+        android:id="@+id/img_conversation"
+        android:layout_below="@id/TV_converse"/>
+
+    <!--//Auth purpose text - Register-->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/TV_Register"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/proximanovafont"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_below="@id/img_conversation"/>
+
+    <!--//get user Name input-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_Register_userName"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_background"
+        android:backgroundTint="#FFCDC9"
+        android:layout_below="@id/TV_Register"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        />
+
+    <!--//get user email input-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_Register_email"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_background"
+        android:backgroundTint="#FFCDC9"
+        android:layout_below="@id/ET_Register_userName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        />
+
+    <!--//get user password input-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_Register_password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_background"
+        android:backgroundTint="#FFCDC9"
+        android:layout_below="@id/ET_Register_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <!--//register button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Sign Up"
+        android:fontFamily="@font/proximanovafont"
+        android:textStyle="bold"
+        android:id="@+id/btn_Register"
+        android:background="@drawable/btn_background"
+        android:padding="2dp"
+        android:layout_below="@id/ET_Register_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+</RelativeLayout>

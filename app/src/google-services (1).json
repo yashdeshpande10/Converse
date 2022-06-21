@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "588081890129",
+    "project_id": "converse-c925e",
+    "storage_bucket": "converse-c925e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588081890129:android:ef78150b21d000038a0970",
+        "android_client_info": {
+          "package_name": "com.example.android.converse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588081890129-ee5f6gft1seklar4nuta5g4nk5ql06qq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.converse",
+            "certificate_hash": "863a185085ee74ab2070f3ece4824f0d52b3ea38"
+          }
+        },
+        {
+          "client_id": "588081890129-pjtk5agfqp0dspvnbja913cq6gm597nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASp9Pfdb1VIhrg-Pt000vpCxbbE-oZ8Io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588081890129-pjtk5agfqp0dspvnbja913cq6gm597nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

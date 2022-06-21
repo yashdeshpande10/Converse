@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <!--//sent message item which will be populated in chat activity Rec View-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sender_background"
+            android:id="@+id/tv_sentMessage"
+            android:textColor="@color/white"
+            android:fontFamily="@font/proximanovafont"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="This is Sent message"
+            android:padding="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_sentMessage"
+            android:text="timestamp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tv_timestamp_sent"
+            android:textStyle="italic"
+            android:layout_marginRight="15dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
